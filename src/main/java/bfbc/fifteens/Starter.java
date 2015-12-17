@@ -2,8 +2,6 @@ package bfbc.fifteens;
 
 import static spark.Spark.*;
 
-import bfbc.fifteens.core.FifteensField;
-
 public final class Starter {
 
 	

@@ -1,7 +1,6 @@
 package bfbc.fifteens.core;
 
 import bfbc.fifteens.InitUpdateRequest;
-import bfbc.fifteens.Starter;
 
 public class FifteensField implements Cloneable {
 	
