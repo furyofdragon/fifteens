@@ -38,17 +38,17 @@ public class FifteensField implements Cloneable {
 	}
 	
 	public int toX(int i) {
-		return i % 4;
+		return i % size;
 	}
 	public int toY(int i) {
-		return i / 4;
+		return i / size;
 	}
 	public int toI(int x, int y) {
-		return y * 4 + x;
+		return y * size + x;
 	}
 	
 	public int findI(int num) {
-		for (int i = 0; i < size*size; i++) {
+		for (int i = 0; i < size * size; i++) {
 			if (data[i] == num) return i;
 		}
 		throw new RuntimeException("Invalid field");
