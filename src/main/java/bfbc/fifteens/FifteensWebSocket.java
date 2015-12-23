@@ -53,7 +53,6 @@ public class FifteensWebSocket {
         	// the field state after the step and the solution.
         	// Our target is to maximize such distance -- to make a position
         	// that is as far from the solution as possible 
-        	// TODO Change constant to size of the field
         	double[] weights = new double[4];
         	int[] indices = new int[4];
         	for (int d = 0; d < 4; d++) {
