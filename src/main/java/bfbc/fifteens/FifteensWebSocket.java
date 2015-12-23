@@ -45,6 +45,7 @@ public class FifteensWebSocket {
         int k = 0;
     	int dPrevOpp = -1;
     	
+    	// TODO May be mast be based on size of the field
     	// We are going to move pieces 60 times to shuffle the field
         while (k < 60) {
         	
