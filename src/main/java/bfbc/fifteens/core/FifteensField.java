@@ -162,4 +162,18 @@ public class FifteensField implements Cloneable {
 	public FifteensField clone() {
 		return new FifteensField(data, size);
 	}
+	
+	public boolean isSorted() {
+		boolean sorted = true;
+		for (int i = 0; i < (size * size); i++) {
+			if (data[i] == i) {
+				sorted = sorted && true;
+			}
+			else {
+				sorted = sorted && false;
+			}
+		}
+		System.out.println(sorted);
+		return sorted;
+	}
 }
